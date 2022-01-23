@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.maxwidth{
+    max-width: 1300px;
+    padding: 0 80px;
+}
+.navbar{
+ background-color: #59c9fc;
+ position: fixed;
+ width: 100%;
+ padding: 15px;
+ font-family: "Ubuntu",sans-serif;
+}
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .maxwidth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
