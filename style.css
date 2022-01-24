@@ -7,12 +7,13 @@
 .maxwidth{
     max-width: 1300px;
     padding: 0 80px;
+    margin: auto;
 }
 .navbar{
- background-color: #59c9fc;
+ /* background-color: #59c9fc; */
  position: fixed;
  width: 100%;
- padding: 15px;
+ padding: 30px 0;
  font-family: "Ubuntu",sans-serif;
 }
 .navbar .menu li a{
@@ -20,18 +21,55 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #59c9fc;
 }
 .navbar .logo a{
     color: white;
     font-size: 35px;
     font-weight: bold;
 }
+.navbar .logo a span{
+ color: #59c9fc;
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+    font-weight: bold;
 }
 .navbar .maxwidth{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Home section Styling */
+
+.home{
+    display: flex;
+    background: url("images/graph.jpg") no-repeat center ;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home .maxwidth{
+    margin: auto 0 auto 40px;
+}
+
+.home .homecontent .text1{
+    font-size: 30px;
+}
+.home .homecontent .text2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .homecontent .text3{
+    font-size: 40px;
+    margin: 5px 0;
 }
